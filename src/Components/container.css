@@ -1,0 +1,70 @@
+
+
+p{
+    background-color: #444;
+}
+.container{
+    border: solid 2px white;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.44);
+    padding: 50px;
+}
+.dates {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.date {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.date h2 {
+    background-color: #444;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.date h2 span {
+    background-color: #444;
+    font-weight: normal;
+}
+h2{
+    background-color: #444;
+}
+
+.event {
+
+    background-color: #444;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.event h3 {
+    background-color: #444;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.event time {
+    background-color: #444;
+    display: block;
+    margin-top: 10px;
+}
+
+.status-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.red {
+    background-color: #f00;
+}
